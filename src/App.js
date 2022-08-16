@@ -11,14 +11,14 @@ import { TodoItem } from './componets/TodoItem.jsx';
 // import { Modal } fron './componets/Modal.jsx';
 
 
-const defaulTodos = [
-  {text:"cortar cebolla", completed: false},
-  {text:"curso de react", completed: false},
-  {text:"llorar ", completed: false},
-  {text:"llorar con la llorona ", completed: false},
-  {text:"llorar con la llorona en caso de ", completed: false},
-  {text:"llorar con la llorona en caso de que n encuentre a su hijo", completed: false},
-];
+// const defaulTodos = [
+//   {text:"cortar cebolla", completed: false},
+//   {text:"curso de react", completed: false},
+//   {text:"llorar ", completed: false},
+//   {text:"llorar con la llorona ", completed: false},
+//   {text:"llorar con la llorona en caso de ", completed: false},
+//   {text:"llorar con la llorona en caso de que n encuentre a su hijo", completed: false},
+// ];
 
 
 // function useLocalStorage(itemName, initialValue){
