@@ -1,3 +1,6 @@
+# Admin-Task
+aplicacion administradora de tareas, en la que puedes vigilar tus tareas pendientes, indicar si las haz terminado eliminarlas y crear nuevas!
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
