@@ -1,0 +1,43 @@
+.listaTodos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+                /* checkbox */
+
+
+
+
+                        /* texto TODO */
+#text--todo{
+    margin: 10px 20px;
+    max-width: 250px;
+    min-width: 250px;
+    padding-bottom: 50px;
+}
+.todoItem--completed{
+    text-decoration: line-through;
+}
+
+
+
+                        /* eliminar TODO */
+/* From uiverse.io */
+.noSelect{
+    color: white;
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height: 32px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+}
+.noSelect:hover {
+    box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
+    transform: translateX(-3px);
+}
