@@ -1,6 +1,98 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding:0;
 }
+
+      /* general */
+.App {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content:space-around;
+  align-items:center;
+}
+
+      /* parte izquierda */
+.section{
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+  min-width: 50vw;
+  min-width: 400px;
+  margin: 10px auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+        /* left */
+.section-left{
+  height: 70vh;
+
+}
+.section-left h2{
+  font-size: 2rem;
+  margin-top: 130px;
+  margin-bottom: 10px;
+}
+
+.section-left h5{
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+.section-left .TodoSearch{
+  margin-bottom: 5px;
+}
+
+#img__task{
+  width: 80%;
+  height: 80%;
+}
+        /* right */
+.section-right h1{
+  font-size: 3rem;
+  margin-bottom: 50px;
+  min-height: 10vh;
+}
+
+.section-left h5{
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+.section-left .TodoSearch{
+  margin-bottom: 5px;
+}
+
+@media(max-width:805px){
+  .App {
+    background-color: #0093E9;
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    min-height: 120vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:space-around;
+    align-content: flex-start;
+  }
+  .section-left{
+    margin-top: 100px;
+  }
+  .section-right{
+    min-height: 10vh;
+  }
+}
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
